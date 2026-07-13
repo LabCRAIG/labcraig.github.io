@@ -119,121 +119,123 @@
         <!-- Seção Equipe -->
         <section id="equipe" class="py-16">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Equipe do Projeto</h2>
+                <!-- Título e Subtítulo baseados na imagem -->
+                <h2 class="text-3xl font-bold text-center mb-2 text-gray-900">Nosso time</h2>
+                <p class="text-center text-gray-600 mb-12">Talentos que fazem a pesquisa acontecer</p>
                 
-                <!-- Grid de Membros: Atualizado para 4 colunas em telas grandes (lg:grid-cols-4) e max-w-6xl -->
-                <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Grid de Membros: 5 colunas em telas grandes (lg:grid-cols-5) para refletir o layout da imagem -->
+                <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
                     
-                    <!-- Membro 1 - Dr Anderson R. Tavares -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="img/Anderson_Tavares.jpg" alt="Dr. Anderson R. Tavares" class="w-full h-full object-cover"/>
+                    <!-- Membro 1 - Anderson R. Tavares -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Anderson_Tavares.jpg" alt="Anderson R. Tavares" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Anderson R. Tavares</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Dr. Anderson R. Tavares</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Coordenador do projeto</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Coordenador</p>
                     </div>
 
-                    <!-- Membro 2 - Dr. Lucas N. Alegre -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="img/Lucas_Alegre.jpg" alt="Dr. Lucas N. Alegre" class="w-full h-full object-cover"/>
+                    <!-- Membro 2 - Gabriel de Senne Amorim -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Gabriel_Amorim.jpg" alt="Gabriel de Senne Amorim" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Gabriel de Senne Amorim</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Dr. Lucas N. Alegre</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Vice-Coordenador</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Doutorado</p>
                     </div>
 
-                    <!-- Membro 3 - Marcelo Guerra Xavier -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="img/Marcelo_Guerra_Xavier.jpg" alt="Marcelo Guerra Xavier" class="w-full h-full object-cover"/>
+                    <!-- Membro 3 - Izaias Saturnino de Lima Neto -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <!-- Div vazia ou com avatar padrão, mantendo o layout da imagem caso não haja foto -->
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden flex items-center justify-center">
+                                <img src="img/Izaias_Neto.jpg" alt="Izaias Saturnino de Lima Neto" class="w-full h-full object-cover" onerror="this.style.display='none'"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Izaias Saturnino de Lima Neto</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Marcelo Guerra Xavier</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Coordenador</p>
-                        <p class="text-gray-500 text-xs">Instituto Kunumi</p>
+                        <p class="text-gray-500 text-sm mt-1">Mestrado</p>
                     </div>
 
-                    <!-- Membro 4 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 4" class="w-full h-full object-cover"/>
+                    <!-- Membro 4 - Deborah Ferreira Ribeiro -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Deborah_Ribeiro.jpg" alt="Deborah Ferreira Ribeiro" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Deborah Ferreira Ribeiro</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 4</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Graduação</p>
                     </div>
 
-                    <!-- Membro 5 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 5" class="w-full h-full object-cover"/>
+                    <!-- Membro 5 - Pedro Muller Legnaghi -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Pedro_Legnaghi.jpg" alt="Pedro Muller Legnaghi" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Pedro Muller Legnaghi</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 5</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador</p>
-                        <p class="text-gray-500 text-xs">Instituto Kunumi</p>
+                        <p class="text-gray-500 text-sm mt-1">Graduação</p>
                     </div>
 
-                    <!-- Membro 6 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 6" class="w-full h-full object-cover"/>
+                    <!-- Membro 6 - Lucas N. Alegre -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Lucas_Alegre.jpg" alt="Lucas N. Alegre" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Lucas N. Alegre</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 6</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Vice-Coordenador</p>
                     </div>
 
-                    <!-- Membro 7 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 7" class="w-full h-full object-cover"/>
+                    <!-- Membro 7 - Anderson G. A. C. Filho -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Anderson_Filho.jpg" alt="Anderson G. A. C. Filho" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Anderson G. A. C. Filho</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 7</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Mestrado</p>
                     </div>
 
-                    <!-- Membro 8 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 8" class="w-full h-full object-cover"/>
+                    <!-- Membro 8 - João Augusto Tonial Laner -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Joao_Laner.jpg" alt="João Augusto Tonial Laner" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">João Augusto Tonial Laner</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 8</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador</p>
-                        <p class="text-gray-500 text-xs">Instituto Kunumi</p>
+                        <p class="text-gray-500 text-sm mt-1">Mestrado</p>
                     </div>
 
-                    <!-- Membro 9 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 9" class="w-full h-full object-cover"/>
+                    <!-- Membro 9 - Luís Filipe Santos de Moura -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Luis_Moura.jpg" alt="Luís Filipe Santos de Moura" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Luís Filipe Santos de Moura</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 9</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador / Bolsista</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Graduação</p>
                     </div>
 
-                    <!-- Membro 10 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 10" class="w-full h-full object-cover"/>
+                    <!-- Membro 10 - Luiza Helwig da Silva -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center flex flex-col items-center justify-between">
+                        <div>
+                            <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
+                                <img src="img/Luiza_Silva.jpg" alt="Luiza Helwig da Silva" class="w-full h-full object-cover"/>
+                            </div>
+                            <h3 class="text-lg font-bold text-gray-900 leading-snug mb-1">Luiza Helwig da Silva</h3>
                         </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 10</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador / Bolsista</p>
-                        <p class="text-gray-500 text-xs">Inf-UFRGS</p>
+                        <p class="text-gray-500 text-sm mt-1">Graduação</p>
                     </div>
-
-                    <!-- Membro 11 (Novo) -->
-                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 text-center">
-                        <div class="w-28 h-28 mx-auto mb-4 rounded-full bg-gray-200 overflow-hidden">
-                            <img src="https://via.placeholder.com/150" alt="Pesquisador 11" class="w-full h-full object-cover"/>
-                        </div>
-                        <h3 class="text-lg font-bold text-gray-900">Nome do Membro 11</h3>
-                        <p class="text-indigo-600 text-sm font-medium mb-1">Pesquisador / Bolsista</p>
-                        <p class="text-gray-500 text-xs">Instituto Kunumi</p>
-                    </div>
-
                 </div>
             </div>
         </section>
